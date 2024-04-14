@@ -1,5 +1,5 @@
-import { gameService } from "../service/index.js";
+import { GameService } from "../service/index.js";
 
 export async function gameRouteController(res) {
-  await gameService(res);
+  await GameService.getGame(res);
 }

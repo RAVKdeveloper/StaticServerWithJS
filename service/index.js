@@ -1,4 +1,4 @@
-export { mainService } from "./main/main.service.js";
-export { defaultService } from "./default/default.service.js";
-export { gameService } from "./game/game.service.js";
-export { voteService } from "./vote/vote.service.js";
+export { MainService } from "./main/main.service.js";
+export { DefaultService } from "./default/default.service.js";
+export { GameService } from "./game/game.service.js";
+export { VoteService } from "./vote/vote.service.js";

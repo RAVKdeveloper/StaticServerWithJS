@@ -1,5 +1,5 @@
-import { defaultService } from "../service/index.js";
+import { DefaultService } from "../service/index.js";
 
 export async function defaultRouteController(res, url) {
-  defaultService(res, url);
+  await DefaultService.default(res, url);
 }
