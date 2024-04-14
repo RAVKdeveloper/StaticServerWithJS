@@ -1,3 +1,4 @@
+// if commonJs const http = require('http')
 import http from "http";
 
 import { AppRoutes } from "./routes/app.routes.js";
